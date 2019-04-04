@@ -5,20 +5,23 @@ English Text Ciphers mmm*/
 
 #include <stdio.h>
 
-float add(float sum);
+float add(int a, int b);
+
 float sum,a,b;
-main(){
+
+int main()
+{
 	printf("enter value for 'a'");
 	scanf("%f",&a);
 	printf("enter value for 'b'");
 	scanf("%f",&b);
-printf("a + b =%f", sum(a,b));
+printf("a + b =%f\n", add(a,b));
 
-return(0)};
+return(0);
+}
 
-float add(sum=a+b){
-float sum,a,b;
-a=&n;
-b=&n;
-return(sum);
+float  add(int a, int b)
+{
+
+return a+b;
 }
